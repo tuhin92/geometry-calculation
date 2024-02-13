@@ -86,6 +86,29 @@
 
 
 
+                  <!-- Rhombus card  -->
+                  <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="images/parallelogram.png" alt="Parallelogram" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Rhombus</h2>
+                      <p class="text-3xl text-center">Area = 0.5 X d1 X d2</p>
+
+                      <div class="">
+                        <input class="w-24 p-2 bg-gray-200 rounded-sm text-2xl" type="text" id="rhombus-diagonal-1" placeholder="d1">
+                        <span class="mr-4 ml-2">cm</span>
+                        <input class="w-24 p-2 bg-gray-200 rounded-sm text-2xl" type="text" id="rhombus-diagonal-2" placeholder="d2">
+                        <span>cm</span>
+                      </div>
+                      <p class="text-2xl">Area: <span id="rhombus-area">0</span> <span>cm<sup>2</sup></span></p>
+
+                      <div class="card-actions">
+                        <button onclick="calculateRhombusArea()" class="btn btn-primary w-full">Calculate</button>
+                      </div>
+                    </div>
+                  </div>
+
+
+
                   
             </div>
 
@@ -102,5 +125,6 @@
     <script src="script/triangle-calculate.js"></script>
     <script src="script/rectangle-area.js"></script>
     <script src="script/parallelogram-calculate.js"></script>
+    <script src="script/rhombus-area.js"></script>
 </body>
 </html>
